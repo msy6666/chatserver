@@ -5,3 +5,10 @@
 基于MYSQL设计用户表、好友表、群组表、群组成员表、离线消息表
 基于发布-订阅的redis消息队列实现跨服务器通信
 通过cmake实现一键编译
+
+#编译流程
+cd build
+rm -rf *
+cmake ..
+make
+或直接采用一键编译脚本autobuild.sh
